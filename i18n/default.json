@@ -1,0 +1,10 @@
+{
+"first-name-validation-error": "2 characters minimum, no numbers and special characters",
+"last-name-validation-error": "2 characters minimum, no numbers and special characters",
+"email-validation-error": "Please enter a valid email",
+"password-validation-error": "Only alphanumeric characters are allowed. The password must be 6-9 characters long and contain at least 1 letter and 1 number",
+"confirm-password-validation-error": "Passwords do not match",
+"phone-validation-error": "Please enter a valid phone number",
+"register": "Apply",
+"title-string": "Translated title"
+}
