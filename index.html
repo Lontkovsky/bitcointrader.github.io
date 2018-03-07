@@ -581,7 +581,7 @@
         var loopPeople = function(response){
         	var index = Math.floor(Math.random() * response.length);
         	var name = response[index].name + ' ' + response[index].surname.charAt(0) + '.';
-        	var image = ["img/male/1.jpg","img/male/2.jpg","img/male/3.jpg","img/male/4.jpg","img/male/5.jpg"];
+        	var image = response[index].photo;
         	var amt = Math.floor(50 + Math.random() * 200);
         	var delay = 3000 + Math.random() * 6000;
         	wrapper.find('[data-subject="name"]').text(name);
